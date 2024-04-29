@@ -1,0 +1,6 @@
+_target_: src_medical.data.pokeman_datamodule.PokemanDataModule
+data_dir: ${paths.data_dir}
+batch_size: 32
+train_val_test_split: [1400, 250, 235]
+num_workers: 0
+pin_memory: False
